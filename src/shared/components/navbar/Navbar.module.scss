@@ -1,0 +1,48 @@
+@import '../../../Common.scss';
+
+.navbar {
+    width: 100%;
+    background-color: $blue-light !important;
+    height: 70px;
+    padding: 12px 0;
+    justify-content: space-between;
+
+    .logo-text {
+        font-size: 40px;
+        color: $blue-dark;
+        font-weight: $font-weight-bold;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // width: 123px;
+        // height: 60px;
+        margin-right: 20px;
+
+        span {
+            font-size: 20px;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    .navbar-button {
+        width: 130px;
+        height: 45px;
+        padding: 11px !important;
+        background: #CBDCF7;
+        border-radius: $border-radius;
+        margin-left: 24px;
+    }
+
+    .button-account {
+        font-size: 15px;
+        width: 205px;
+        height: 45px;
+        border-radius: 5px;
+        font-weight: 700;
+        background: #CBDCF7;
+        margin-left: 24px;
+    }
+}

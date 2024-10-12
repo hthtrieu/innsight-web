@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,  
+    // Ngăn TypeScript biên dịch JavaScript thành tệp .js
+    // "checkJs": false // Tắt kiểm tra lỗi cho tệp .js
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

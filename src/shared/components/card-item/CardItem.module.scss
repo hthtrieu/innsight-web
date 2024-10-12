@@ -1,0 +1,14 @@
+@import '../../../Common.scss';
+
+.card {
+    border-radius: $border-radius;
+
+    .text-describe {
+        font-size: 11px;
+    }
+
+    .yellow {
+        background-color: #EFC943;
+        ;
+    }
+}

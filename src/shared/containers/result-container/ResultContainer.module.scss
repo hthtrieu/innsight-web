@@ -1,0 +1,11 @@
+@import "../../../Common.scss";
+
+.container-content {
+    min-width: 500px;
+    max-width: 1160px;
+    margin: 0 auto;
+
+    .container-item {
+        background-color: $mainBg;
+    }
+}

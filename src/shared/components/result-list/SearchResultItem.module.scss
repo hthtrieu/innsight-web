@@ -1,0 +1,23 @@
+@import '../../../Common.scss';
+
+.hotel-title {
+    color: #0735D6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+}
+
+.item-price {
+    color: #E67E03;
+    font-size: $fontSizeMedium;
+    font-weight: $font-weight-bold;
+}
+
+.item-button {
+    background-color: #FB8800;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+}

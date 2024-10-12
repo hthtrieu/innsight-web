@@ -1,0 +1,66 @@
+@import "../../../Common.scss";
+
+.map-container {
+    width: 100%;
+    min-height: 500px;
+}
+
+.content {
+    max-width: 1160px;
+    margin: 20px auto;
+
+    .title {
+        font-size: 24px !important;
+        font-weight: $font-weight-bold;
+    }
+
+    .content-block {
+        margin-bottom: 20px !important;
+        padding: 10px !important;
+        border-radius: 5px;
+
+        * {
+            font-size: $fontSizeSmall;
+        }
+
+        .block-title {
+            font-size: 18px !important;
+            font-weight: $font-weight-bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    .content-bg-gray {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), #FFF;
+    }
+
+    .button-orange {
+        font-weight: 600;
+        background-color: #CF6225;
+        color: white;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+
+.slider-list {
+    .slider-wrapper {
+        padding-right: 20px;
+        height: 90px;
+    }
+
+    .slider-item {
+        height: 100%;
+        padding: 10px;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
